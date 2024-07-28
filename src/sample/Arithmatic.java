@@ -8,22 +8,22 @@ public class Arithmatic {
 		int a=259259,b=259259,c=259259;
 		int d;
 		d=a+b+c;
-		System.out.println("\n\n\n\nYou Secret Key is ="+d);
-		keygen();
+		Math1.keygen();
 		
 
 	}
-	public static void keygen() {
-		Scanner key1 = new Scanner(System.in);  
-	    System.out.println("\n\n\n\nEnter Secret Key:");
+	public static class Math1 extends Arithmatic{
+		
+		public static void keygen() {
+			Scanner key1 = new Scanner(System.in);  
+		    System.out.println("\n\n\n\nEnter Secret Key:");
 
-	    String secretKey = key1.nextLine(); 
-	    
-	    if (secretKey.equals("777777"))
-	    {
-	    	Message.main(null);
-	    }
+		    String secretKey = key1.nextLine(); 
+		    Message.details(secretKey);
+		   
+		}
+		
 	}
-	
+
 
 }

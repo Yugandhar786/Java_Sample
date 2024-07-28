@@ -14,7 +14,7 @@ public class Loops{
 	    System.out.println("Enter username");
 
 	    String userName = obj1.nextLine(); 
-	    
+	     
 	    
 	    Scanner obj2 = new Scanner(System.in);  
 	    System.out.println("Enter Password");
